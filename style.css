@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #e5cbf5;
+}
+h2{
+    color: black;
+}
+form{
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+input{
+    background: transparent;
+    color: black;
+    margin: 5px;
+    padding: 8px;
+    border: 0;
+    border-bottom: 2px solid #e5cbf5;
+    outline: none;
+    &::placeholder{
+        color: #b7b5b7;
+    }
+}
+.pass{
+    margin-bottom: 15px;
+}
+button{
+    background-color: #bc64f2;
+    border-color: #bc64f2;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+button:hover{
+    background-color: #d696fe;
+    color: white;
+    border-color: #d696fe;
+}
+/*body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+}
+h2{
+    color: white;
+}
+form{
+    background-color: transparent;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px dashed rgb(0, 221, 255);
+}
+input{
+    background: transparent;
+    color: black;
+    margin: 5px;
+    padding: 8px;
+    border-bottom: 2px solid white;
+    outline: none;
+    &::placeholder{
+        color: white;
+    }
+
+}
+.pass{
+    margin-bottom: 15px;
+}
+button{
+    background-color: transparent;
+    border: 2px dashed rgb(0, 221, 255);
+    border-radius: 5px;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+button:hover{
+    border: 2px solid rgb(0, 221, 255);;
+}*/
